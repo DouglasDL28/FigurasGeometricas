@@ -14,7 +14,7 @@ open class Rectangle: Drawable, Describable {
             figure += "\n"
         }
         return figure
-    }
+    } // dibuja el rectangulo
 
 
     override fun requestDescription() {
@@ -22,6 +22,6 @@ open class Rectangle: Drawable, Describable {
         this.lenght = readLine()!!.toInt()
         print("Ingrese el ancho: ")
         this.width = readLine()!!.toInt()
-    }
+    } // pide las dimensiones
 
 }

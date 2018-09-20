@@ -25,11 +25,11 @@ open class Triangle: Drawable, Describable {
             figure+="\n"
         }
         return figure
-    }
+    } //dibuja en triangulo
 
     override fun requestDescription() {
         print("Ingrese la altura: ")
         this.lenght = readLine()!!.toInt()
-    }
+    } // pide las dimensiones
 
 }

@@ -20,17 +20,17 @@ fun main (args: Array<String>) {
                 var opcion2 = readLine()!!.toInt()
                 when (opcion2){
                     1 -> {requestDescription(square)
-                        drawFigure(square)}
+                        drawFigure(square)} //Dibujar un cuadrado.
 
                     2 -> {requestDescription(rectangle)
-                        drawFigure(rectangle)}
+                        drawFigure(rectangle)} //Dibujar un reactangulo.
 
                     3 -> {requestDescription(triangle)
-                        drawFigure(triangle)}
+                        drawFigure(triangle)} //Dibujar un triangulo.
                 }
-            }
+            } //Dibujar una figura geometrica.
 
-            2 -> {wantToContinue = false}
+            2 -> {wantToContinue = false} //Sale
         }
 
     } while (wantToContinue)
